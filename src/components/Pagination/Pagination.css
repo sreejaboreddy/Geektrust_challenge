@@ -1,0 +1,39 @@
+/* Pagination.css */
+div.pagination {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+button {
+  padding: 8px 12px;
+  margin: 0 4px;
+  cursor: pointer;
+  border: none;
+  background-color: #1a9ff1;
+  color: white;
+  border-radius: 50%;
+
+}
+
+button:hover {
+  background-color: #0d47c5;
+}
+
+button:disabled {
+  background-color: #ddd;
+  color: #666;
+  cursor: not-allowed;
+}
+
+button.active {
+  background-color: #c0c0c0;
+  /* Change this color to your desired light color */
+}
+
+.first-page,
+.prev-page,
+.next-page,
+.last-page {
+  border-radius: 0%;
+}

@@ -1,0 +1,26 @@
+/* UserRow.css */
+.edit-btn {
+  background-color: #5aacf0;
+  color: white;
+  border-radius: 35%;
+}
+
+.delete-btn {
+  background-color: #ff4b3b;
+  color: white;
+  border-radius: 35%;
+}
+
+.save-btn {
+  background-color: #4CAF50;
+  color: white;
+  border-radius: 10%;
+}
+
+.cancel-btn {
+  background-color: #f44336;
+  color: white;
+  border-radius: 10%;
+}
+
+/* Add any specific styles for the UserRow component here */
